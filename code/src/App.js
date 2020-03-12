@@ -1,9 +1,12 @@
 import React from 'react'
+import Survey from './Survey.js'
 
 export const App = () => {
   return (
-    <div>
-      Find me in src/app.js!
-    </div>
+    <section className="wrapper-section">
+      <h1>Rank your favorite game genres: </h1>
+      <p>Click the genre to move it up to the top!</p>
+      <Survey />
+    </section>
   )
 }
