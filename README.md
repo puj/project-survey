@@ -1,13 +1,11 @@
 # Survey form with React
+Made a ranking tool for video game genres.
 
-Replace this readme with your own information about your project.
-
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
 
 ## The problem
+I used a stateful array to store the genres and information about them.  The implicit order of the array and a single field in the array element called starred.
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+The user can click a genre to move it to the top of the list.  They can also star the genres they play the most.
 
 ## View it live
-
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+https://agitated-lichterman-acc68d.netlify.com/
